@@ -7,7 +7,7 @@ export default [
       },
       rules: {
         semi: "error",
-        quotes: ["error", "double", "backtick"],
+        quotes: ["error", "double" | "backtick"],
       },
     },
   ];
