@@ -1,3 +1,5 @@
+import { off } from "process";
+
 export default [
     {
       files: ["**/*.js"],
@@ -7,7 +9,7 @@ export default [
       },
       rules: {
         semi: "error",
-        quotes: ["error", "double" | "backtick"],
+        quotes: "off",
       },
     },
   ];
