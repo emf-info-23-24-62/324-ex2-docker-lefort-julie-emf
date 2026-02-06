@@ -4,7 +4,8 @@
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "eslint": "eslint ."
   },
   "dependencies": {
     "eslint": "^9.39.2",
